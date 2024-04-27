@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+:root {
+    --floral-white: #F9F6EE;
+    --platinum: #EAEBE6;
+    --champagne-pink: #F0DFD7;
+    --khaki: #AD9E8B;
+    --ebony: #635E41;
+    --buff: #CD9E72;
+    --drab-dark-brown: #322D19;
+    --copper: #BD6C2A;
+}
+
+/* Ejemplo de uso */
+body {
+    background-color: var(--floral-white);
+    color: var(--ebony);
+    overflow-x: hidden;
+}
+
+.dm-mono-light {
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.dm-mono-regular {
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-mono-medium {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.dm-mono-light-italic {
+    font-family: "DM Mono", monospace;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.dm-mono-regular-italic {
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.dm-mono-medium-italic {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* nav menu */
+.nav-link {
+    font-weight: bolder !important;
+    color: var(--copper) !important;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: var(--ebony) !important;
+    transform: translateY(-5px);
+}
+
+.a-links {
+    color: var(--drab-dark-brown);
+    font-weight: 600;
+    font-family: "DM Mono", monospace;
+    text-decoration: none;
+}
+
+.a-links:hover {
+    color: var(--copper);
+}
+
+/* Buttons */
+.main-button {
+    background-color: var(--drab-dark-brown);
+    color: var(--floral-white);
+    padding: 2% 3%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main-button:hover {
+    background-color: var(--buff);
+    color: var(--drab-dark-brown);
+}
+
+.secondary-button {
+    background-color: var(--copper);
+    color: var(--floral-white);
+    padding: 2% 3%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.secondary-button:hover {
+    background-color: var(--buff);
+    color: var(--floral-white);
+}
+
+/* text */
+.text-justify {
+    text-align: justify !important;
+}
+
+/* background and fonts colors */
+.bg-ebony {
+    background-color: var(--ebony);
+}
+
+.color-champagne-pink {
+    color: var(--champagne-pink);
+}
+
+.color-floral-white {
+    color: var(--floral-white);
+}
+
+/* other elements */
+.natural-banner {
+    height: 30em !important;
+}
