@@ -85,11 +85,13 @@ body {
     padding: 2% 3%;
     font-weight: bold;
     border-radius: 5px;
+    border: 1.5px solid var(--drab-dark-brown);
 }
 
 .main-button:hover {
-    background-color: var(--buff);
+    background-color: var(--champagne-pink);
     color: var(--drab-dark-brown);
+    border: 1.5px solid var(--drab-dark-brown);
 }
 
 .secondary-button {
@@ -98,11 +100,13 @@ body {
     padding: 2% 3%;
     font-weight: bold;
     border-radius: 5px;
+    border: 1.5px solid var(--copper);
 }
 
 .secondary-button:hover {
-    background-color: var(--buff);
-    color: var(--floral-white);
+    background-color: var(--champagne-pink);
+    color: var(--copper);
+    border: 1.5px solid var(--copper);
 }
 
 /* text */
@@ -115,12 +119,21 @@ body {
     background-color: var(--ebony);
 }
 
+.bg-dark-brown{
+    background-color: var(--drab-dark-brown);
+}
+
 .color-champagne-pink {
     color: var(--champagne-pink);
 }
 
 .color-floral-white {
     color: var(--floral-white);
+}
+
+/* filters */
+.copper-filter{
+    filter: brightness(0) saturate(100%) invert(40%) sepia(83%) saturate(507%) hue-rotate(345deg) brightness(98%) contrast(80%);
 }
 
 /* other elements */
